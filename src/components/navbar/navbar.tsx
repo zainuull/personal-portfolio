@@ -4,12 +4,10 @@ import { AiOutlineClose } from 'react-icons/ai';
 import { RiReactjsLine } from 'react-icons/ri';
 import Link from 'next/link';
 import { signOut, useSession } from 'next-auth/react';
-import logo from '../../../public/assets/Rectangle 3824.png';
 
 const Navbar = () => {
   const [menu, setMenu] = useState(false);
-  const data: any = useSession();
-  const user = data.data?.user;
+  const data = useSession();
 
   const handleNavbar = () => {
     setMenu(!menu);
@@ -18,7 +16,7 @@ const Navbar = () => {
   return (
     <nav className="w-full flex flex-col items-center relative">
       <div className="w-full h-20 flex items-center justify-between text-white px-4 bg-menuPrimary">
-        <div className='flex items-center gap-x-4'>
+        <div className="flex items-center gap-x-4">
           <RiReactjsLine className="text-6xl" />
           <Link href={'/'} className="text-3xl font-semibold font-Poppins">
             Budak Program
@@ -34,7 +32,7 @@ const Navbar = () => {
           <Link href="/contact" className="hover:text-black transition cursor-pointer">
             Contact
           </Link>
-          {user && (
+          {data.data?.user && (
             <button
               onClick={() => signOut()}
               className="hover:text-black transition cursor-pointer">

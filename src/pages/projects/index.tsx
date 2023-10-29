@@ -1,17 +1,14 @@
-import Navbar from '@/components/navbar/navbar';
-import Image from 'next/image';
-import Digipol from '../../../public/assets/digipol.png';
 import { LuExternalLink } from 'react-icons/lu';
 import Link from 'next/link';
 import useSWR from 'swr';
 import { fetcher } from '@/lib/swr/fetcher';
+import Image from 'next/image';
 
 const ProjectsPage = () => {
-  const { data, error } = useSWR('/api/projects', fetcher);
+  const { data } = useSWR('/api/projects', fetcher);
 
   return (
     <div className="w-full min-h-screen overflow-hidden bg-primary pb-10">
-      <Navbar />
       <div className="w-full h-full flex flex-col items-center gap-x-4 text-white mt-24">
         <h1 className="text-4xl font-semibold border-b-2 border-secondary">Projects</h1>
         <div className="fw-full flex flex-col mt-8 px-4 gap-y-8">
@@ -19,11 +16,12 @@ const ProjectsPage = () => {
             data?.data.map((project: any) => (
               <div key={project?.name} className="flex flex-col gap-y-2">
                 <div className="group relative cursor-pointer rounded-lg ">
-                  <img
+                  <Image
                     src={project?.img}
-                    alt="Digipol"
+                    alt={project?.name}
                     height={400}
-                    className="rounded-lg w-[450px] lg:w-[800px]"
+                    width={400}
+                    className="rounded-lg w-[450px] lg:w-[900px]"
                   />
                   <Link
                     href={project?.link}

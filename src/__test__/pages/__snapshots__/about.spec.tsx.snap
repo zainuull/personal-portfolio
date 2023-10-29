@@ -1,0 +1,398 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`about page render about page 1`] = `
+{
+  "asFragment": [Function],
+  "baseElement": <body>
+    <div>
+      <div
+        class="w-full min-h-screen overflow-hidden bg-primary"
+      >
+        <div
+          class="w-full flex flex-col"
+        >
+          <div
+            class="w-full flex flex-col h-full gap-y-2 mt-12 px-4 lg:flex-row items-center lg:px-24 lg:h-full overflow-hidden"
+          >
+            <div
+              class="flex flex-col gap-y-4 text-white lg:w-1/2"
+            >
+              <div
+                class="flex flex-col gap-y-2"
+              >
+                <h1
+                  class="text-2xl font-Poppins lg:text-4xl lg:leading-relaxed"
+                >
+                  Hello All, I'm 
+                  <br />
+                   
+                  <span
+                    class="font-semibold text-5xl text-secondary lg:text-7xl"
+                  >
+                    Thoba Zainul
+                  </span>
+                </h1>
+                <h2
+                  class="font-light lg:text-2xl"
+                >
+                  Teacher & 
+                  <span
+                    class="font-semibold"
+                  >
+                    Web Developer
+                  </span>
+                </h2>
+              </div>
+              <p
+                class="w-4/5 font-thin text-sm leading-relaxed lg:w-4/5 lg:text-base lg:leading-loose"
+              >
+                I am an active student at an Information Technology University. I really like learning, that's why i am interested in the world of Technology, especially in application development, because in that case i will learn new things
+              </p>
+              <div
+                class="flex items-center gap-x-6 mt-2 lg:mt-6 lg:gap-x-8"
+              >
+                <button
+                  class="px-6 py-2 bg-secondary rounded-lg text-black hover:shadow-xl flex items-center gap-x-2 lg:px-8 lg:py-4 lg:hover:shadow-2xl"
+                >
+                  <svg
+                    fill="currentColor"
+                    height="1em"
+                    stroke="currentColor"
+                    stroke-width="0"
+                    viewBox="0 0 24 24"
+                    width="1em"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <path
+                      d="M9,15 L9,23 L1,23 L1,15 L9,15 Z M23,15 L23,23 L15,23 L15,15 L23,15 Z M9,1 L9,9 L1,9 L1,1 L9,1 Z M23,1 L23,9 L15,9 L15,1 L23,1 Z"
+                      fill="none"
+                      stroke="#000"
+                      stroke-width="2"
+                    />
+                  </svg>
+                  <a
+                    href="/projects"
+                  >
+                     Projects
+                  </a>
+                </button>
+                <button
+                  class="px-6 py-2 border border-secondary rounded-lg hover:shadow-xl flex items-center gap-x-2 lg:px-8 lg:py-4 lg:hover:shadow-2xl"
+                >
+                  <svg
+                    fill="currentColor"
+                    height="1em"
+                    stroke="currentColor"
+                    stroke-width="0"
+                    viewBox="0 0 24 24"
+                    width="1em"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <circle
+                      cx="4.983"
+                      cy="5.009"
+                      r="2.188"
+                    />
+                    <path
+                      d="M9.237 8.855v12.139h3.769v-6.003c0-1.584.298-3.118 2.262-3.118 1.937 0 1.961 1.811 1.961 3.218v5.904H21v-6.657c0-3.27-.704-5.783-4.526-5.783-1.835 0-3.065 1.007-3.568 1.96h-.051v-1.66H9.237zm-6.142 0H6.87v12.139H3.095z"
+                    />
+                  </svg>
+                  <a
+                    href="https://www.linkedin.com/in/thobazb/"
+                    target="_blank"
+                  >
+                    LinkedIn
+                  </a>
+                </button>
+              </div>
+            </div>
+            <div
+              class="hidden lg:flex flex-col items-center relative mt-8 lg:mt-0 lg:w-1/2"
+            >
+              <img
+                alt="Zainul"
+                class="z-[3] mr-10 "
+                data-nimg="1"
+                decoding="async"
+                height="607"
+                loading="lazy"
+                src="/_next/image?url=%2Fimg.jpg&w=1920&q=75"
+                srcset="/_next/image?url=%2Fimg.jpg&w=640&q=75 1x, /_next/image?url=%2Fimg.jpg&w=1920&q=75 2x"
+                style="color: transparent;"
+                width="607"
+              />
+              <div
+                class="absolute -top-[10px] right-20 w-full"
+              >
+                <svg
+                  viewBox="0 0 200 200"
+                  width="700"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    d="M33.9,-59.8C45.7,-51.8,58.5,-46.5,69.7,-37C80.9,-27.5,90.4,-13.7,87.5,-1.7C84.7,10.4,69.4,20.8,60.4,34.1C51.4,47.4,48.7,63.5,39.7,66.4C30.7,69.3,15.3,58.9,3,53.6C-9.3,48.4,-18.5,48.3,-29.4,46.4C-40.2,44.6,-52.6,41.1,-55.5,33C-58.5,25,-52,12.5,-47.3,2.7C-42.7,-7.2,-39.9,-14.3,-40.6,-28.6C-41.2,-42.8,-45.3,-64.1,-39.1,-75.4C-32.9,-86.7,-16.4,-88,-2.7,-83.2C11,-78.5,22,-67.8,33.9,-59.8Z"
+                    fill="#FFC637"
+                    transform="translate(100 100)"
+                  />
+                </svg>
+              </div>
+            </div>
+            <div
+              class="flex flex-col items-center relative mt-8 lg:mt-0 lg:w-1/2 lg:hidden"
+            >
+              <img
+                alt="Zainul"
+                class="z-[3] mr-10 "
+                data-nimg="1"
+                decoding="async"
+                height="300"
+                loading="lazy"
+                src="/_next/image?url=%2Fimg.jpg&w=640&q=75"
+                srcset="/_next/image?url=%2Fimg.jpg&w=384&q=75 1x, /_next/image?url=%2Fimg.jpg&w=640&q=75 2x"
+                style="color: transparent;"
+                width="300"
+              />
+              <div
+                class="absolute top-10 left-3"
+              >
+                <img
+                  alt="Zainul"
+                  class="rotate-180"
+                  data-nimg="1"
+                  decoding="async"
+                  height="320"
+                  loading="lazy"
+                  src="/_next/image?url=%2Fimg.jpg&w=640&q=75"
+                  srcset="/_next/image?url=%2Fimg.jpg&w=384&q=75 1x, /_next/image?url=%2Fimg.jpg&w=640&q=75 2x"
+                  style="color: transparent;"
+                  width="320"
+                />
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>,
+  "container": <div>
+    <div
+      class="w-full min-h-screen overflow-hidden bg-primary"
+    >
+      <div
+        class="w-full flex flex-col"
+      >
+        <div
+          class="w-full flex flex-col h-full gap-y-2 mt-12 px-4 lg:flex-row items-center lg:px-24 lg:h-full overflow-hidden"
+        >
+          <div
+            class="flex flex-col gap-y-4 text-white lg:w-1/2"
+          >
+            <div
+              class="flex flex-col gap-y-2"
+            >
+              <h1
+                class="text-2xl font-Poppins lg:text-4xl lg:leading-relaxed"
+              >
+                Hello All, I'm 
+                <br />
+                 
+                <span
+                  class="font-semibold text-5xl text-secondary lg:text-7xl"
+                >
+                  Thoba Zainul
+                </span>
+              </h1>
+              <h2
+                class="font-light lg:text-2xl"
+              >
+                Teacher & 
+                <span
+                  class="font-semibold"
+                >
+                  Web Developer
+                </span>
+              </h2>
+            </div>
+            <p
+              class="w-4/5 font-thin text-sm leading-relaxed lg:w-4/5 lg:text-base lg:leading-loose"
+            >
+              I am an active student at an Information Technology University. I really like learning, that's why i am interested in the world of Technology, especially in application development, because in that case i will learn new things
+            </p>
+            <div
+              class="flex items-center gap-x-6 mt-2 lg:mt-6 lg:gap-x-8"
+            >
+              <button
+                class="px-6 py-2 bg-secondary rounded-lg text-black hover:shadow-xl flex items-center gap-x-2 lg:px-8 lg:py-4 lg:hover:shadow-2xl"
+              >
+                <svg
+                  fill="currentColor"
+                  height="1em"
+                  stroke="currentColor"
+                  stroke-width="0"
+                  viewBox="0 0 24 24"
+                  width="1em"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    d="M9,15 L9,23 L1,23 L1,15 L9,15 Z M23,15 L23,23 L15,23 L15,15 L23,15 Z M9,1 L9,9 L1,9 L1,1 L9,1 Z M23,1 L23,9 L15,9 L15,1 L23,1 Z"
+                    fill="none"
+                    stroke="#000"
+                    stroke-width="2"
+                  />
+                </svg>
+                <a
+                  href="/projects"
+                >
+                   Projects
+                </a>
+              </button>
+              <button
+                class="px-6 py-2 border border-secondary rounded-lg hover:shadow-xl flex items-center gap-x-2 lg:px-8 lg:py-4 lg:hover:shadow-2xl"
+              >
+                <svg
+                  fill="currentColor"
+                  height="1em"
+                  stroke="currentColor"
+                  stroke-width="0"
+                  viewBox="0 0 24 24"
+                  width="1em"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <circle
+                    cx="4.983"
+                    cy="5.009"
+                    r="2.188"
+                  />
+                  <path
+                    d="M9.237 8.855v12.139h3.769v-6.003c0-1.584.298-3.118 2.262-3.118 1.937 0 1.961 1.811 1.961 3.218v5.904H21v-6.657c0-3.27-.704-5.783-4.526-5.783-1.835 0-3.065 1.007-3.568 1.96h-.051v-1.66H9.237zm-6.142 0H6.87v12.139H3.095z"
+                  />
+                </svg>
+                <a
+                  href="https://www.linkedin.com/in/thobazb/"
+                  target="_blank"
+                >
+                  LinkedIn
+                </a>
+              </button>
+            </div>
+          </div>
+          <div
+            class="hidden lg:flex flex-col items-center relative mt-8 lg:mt-0 lg:w-1/2"
+          >
+            <img
+              alt="Zainul"
+              class="z-[3] mr-10 "
+              data-nimg="1"
+              decoding="async"
+              height="607"
+              loading="lazy"
+              src="/_next/image?url=%2Fimg.jpg&w=1920&q=75"
+              srcset="/_next/image?url=%2Fimg.jpg&w=640&q=75 1x, /_next/image?url=%2Fimg.jpg&w=1920&q=75 2x"
+              style="color: transparent;"
+              width="607"
+            />
+            <div
+              class="absolute -top-[10px] right-20 w-full"
+            >
+              <svg
+                viewBox="0 0 200 200"
+                width="700"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  d="M33.9,-59.8C45.7,-51.8,58.5,-46.5,69.7,-37C80.9,-27.5,90.4,-13.7,87.5,-1.7C84.7,10.4,69.4,20.8,60.4,34.1C51.4,47.4,48.7,63.5,39.7,66.4C30.7,69.3,15.3,58.9,3,53.6C-9.3,48.4,-18.5,48.3,-29.4,46.4C-40.2,44.6,-52.6,41.1,-55.5,33C-58.5,25,-52,12.5,-47.3,2.7C-42.7,-7.2,-39.9,-14.3,-40.6,-28.6C-41.2,-42.8,-45.3,-64.1,-39.1,-75.4C-32.9,-86.7,-16.4,-88,-2.7,-83.2C11,-78.5,22,-67.8,33.9,-59.8Z"
+                  fill="#FFC637"
+                  transform="translate(100 100)"
+                />
+              </svg>
+            </div>
+          </div>
+          <div
+            class="flex flex-col items-center relative mt-8 lg:mt-0 lg:w-1/2 lg:hidden"
+          >
+            <img
+              alt="Zainul"
+              class="z-[3] mr-10 "
+              data-nimg="1"
+              decoding="async"
+              height="300"
+              loading="lazy"
+              src="/_next/image?url=%2Fimg.jpg&w=640&q=75"
+              srcset="/_next/image?url=%2Fimg.jpg&w=384&q=75 1x, /_next/image?url=%2Fimg.jpg&w=640&q=75 2x"
+              style="color: transparent;"
+              width="300"
+            />
+            <div
+              class="absolute top-10 left-3"
+            >
+              <img
+                alt="Zainul"
+                class="rotate-180"
+                data-nimg="1"
+                decoding="async"
+                height="320"
+                loading="lazy"
+                src="/_next/image?url=%2Fimg.jpg&w=640&q=75"
+                srcset="/_next/image?url=%2Fimg.jpg&w=384&q=75 1x, /_next/image?url=%2Fimg.jpg&w=640&q=75 2x"
+                style="color: transparent;"
+                width="320"
+              />
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>,
+  "debug": [Function],
+  "findAllByAltText": [Function],
+  "findAllByDisplayValue": [Function],
+  "findAllByLabelText": [Function],
+  "findAllByPlaceholderText": [Function],
+  "findAllByRole": [Function],
+  "findAllByTestId": [Function],
+  "findAllByText": [Function],
+  "findAllByTitle": [Function],
+  "findByAltText": [Function],
+  "findByDisplayValue": [Function],
+  "findByLabelText": [Function],
+  "findByPlaceholderText": [Function],
+  "findByRole": [Function],
+  "findByTestId": [Function],
+  "findByText": [Function],
+  "findByTitle": [Function],
+  "getAllByAltText": [Function],
+  "getAllByDisplayValue": [Function],
+  "getAllByLabelText": [Function],
+  "getAllByPlaceholderText": [Function],
+  "getAllByRole": [Function],
+  "getAllByTestId": [Function],
+  "getAllByText": [Function],
+  "getAllByTitle": [Function],
+  "getByAltText": [Function],
+  "getByDisplayValue": [Function],
+  "getByLabelText": [Function],
+  "getByPlaceholderText": [Function],
+  "getByRole": [Function],
+  "getByTestId": [Function],
+  "getByText": [Function],
+  "getByTitle": [Function],
+  "queryAllByAltText": [Function],
+  "queryAllByDisplayValue": [Function],
+  "queryAllByLabelText": [Function],
+  "queryAllByPlaceholderText": [Function],
+  "queryAllByRole": [Function],
+  "queryAllByTestId": [Function],
+  "queryAllByText": [Function],
+  "queryAllByTitle": [Function],
+  "queryByAltText": [Function],
+  "queryByDisplayValue": [Function],
+  "queryByLabelText": [Function],
+  "queryByPlaceholderText": [Function],
+  "queryByRole": [Function],
+  "queryByTestId": [Function],
+  "queryByText": [Function],
+  "queryByTitle": [Function],
+  "rerender": [Function],
+  "unmount": [Function],
+}
+`;

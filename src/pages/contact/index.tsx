@@ -1,4 +1,3 @@
-import Navbar from '@/components/navbar/navbar';
 import { FiPhoneCall } from 'react-icons/fi';
 import { AiOutlineMail } from 'react-icons/ai';
 import {FaMapMarkerAlt} from "react-icons/fa"
@@ -6,9 +5,8 @@ import { BsWhatsapp, BsInstagram, BsLinkedin } from 'react-icons/bs';
 
 const ContactPage = () => {
   return (
-    <div className="w-full min-h-20 bg-primary pb-20 lg:min-h-screen lg:pb-0">
-      <Navbar />
-      <div className="w-full flex flex-col items-center px-4 text-white mt-10">
+    <div className="w-full min-h-20 bg-primary pb-20 lg:min-h-screen lg:pb-0 lg:pt-10">
+      <div className="w-full flex flex-col items-center px-4 text-white">
         <h1 className="text-2xl font-bold lg:text-4xl">Contact</h1>
         <p className="w-1/2 text-center mt-4">Any question or remarks? Just write us a message!</p>
         <div className="w-full flex flex-col lg:flex-row lg:gap-x-10">

@@ -6,4 +6,4 @@ export function MainMiddleware(req:NextRequest) {
     return res
 }
 
-export default withAuth(MainMiddleware,['/projects','/'])
+export default withAuth(MainMiddleware,['/projects','/','/about','/contact'])

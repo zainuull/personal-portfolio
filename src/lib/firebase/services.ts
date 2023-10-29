@@ -4,6 +4,8 @@ import bcrypt from 'bcrypt';
 
 const firestore = getFirestore(app);
 
+
+
 export async function getAccount(userData: { email: string }) {
   const obj = query(collection(firestore, 'users'), where('email', '==', userData.email));
   const snapshot = await getDocs(obj);

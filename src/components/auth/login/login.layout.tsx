@@ -23,7 +23,7 @@ const LoginLayout = () => {
 
       if (!res?.error) {
         setIsLoading(false);
-        push('/');
+        push('/about');
       } else {
         setIsLoading(false);
         setError('Email or Password is incorrect');

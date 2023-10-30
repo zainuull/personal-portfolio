@@ -1,7 +1,8 @@
 import { FiPhoneCall } from 'react-icons/fi';
 import { AiOutlineMail } from 'react-icons/ai';
-import {FaMapMarkerAlt} from "react-icons/fa"
+import { FaMapMarkerAlt } from 'react-icons/fa';
 import { BsWhatsapp, BsInstagram, BsLinkedin } from 'react-icons/bs';
+import Link from 'next/link';
 
 const ContactPage = () => {
   return (
@@ -11,7 +12,7 @@ const ContactPage = () => {
         <p className="w-1/2 text-center mt-4">Any question or remarks? Just write us a message!</p>
         <div className="w-full flex flex-col lg:flex-row lg:gap-x-10">
           <div className="w-full bg-menuSecondary min-h-52 rounded-lg mt-10 flex flex-col items-center p-4 pb-8 gap-y-6 text-center lg:text-start lg:items-start">
-            <div className='flex flex-col gap-y-4 lg:gap-y-0'>
+            <div className="flex flex-col gap-y-4 lg:gap-y-0">
               <h1 className="text-2xl font-semibold">Contact Information</h1>
               <p>Say something to start a live chat!</p>
             </div>
@@ -28,9 +29,19 @@ const ContactPage = () => {
               <p className="w-2/3">Jl Kp. Babakan Kel. Telajung Kec. Cikarang Barat, Jawa Barat</p>
             </div>
             <div className="w-full flex items-center justify-center gap-x-6 mt-4 lg:justify-start lg:mt-8">
-              <BsLinkedin className="text-4xl hover:shadow-lg hover:scale-105 transition duration-300 cursor-pointer lg:text-3xl" />
-              <BsWhatsapp className="text-4xl hover:shadow-lg hover:scale-105 transition duration-300 cursor-pointer lg:text-3xl" />
-              <BsInstagram className="text-4xl hover:shadow-lg hover:scale-105 transition duration-300 cursor-pointer lg:text-3xl" />
+              <Link href={'https://www.linkedin.com/in/thobazb/'} target="_blank">
+                <BsLinkedin className="text-4xl hover:shadow-lg hover:scale-105 transition duration-300 cursor-pointer lg:text-3xl" />
+              </Link>
+              <Link
+                href={
+                  'https://api.whatsapp.com/send?phone=6288298813114&text=Zainul+And+Chawa+❤️&fbclid=PAAaZeoWwaBTH1cX3m6X7aqpUO0uXDKD5KBBGB1YuZahb34MO1_GDaNa-W8Uo'
+                }
+                target="_blank">
+                <BsWhatsapp className="text-4xl hover:shadow-lg hover:scale-105 transition duration-300 cursor-pointer lg:text-3xl" />
+              </Link>
+              <Link href={'https://www.instagram.com/zainuull_'} target="_blank">
+                <BsInstagram className="text-4xl hover:shadow-lg hover:scale-105 transition duration-300 cursor-pointer lg:text-3xl" />
+              </Link>
             </div>
           </div>
           <form className="w-full px-4 mt-16 flex flex-col gap-y-8">
